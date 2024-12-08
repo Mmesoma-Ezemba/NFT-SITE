@@ -1,0 +1,132 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #153959;
+    color: #fff;
+    line-height: 1.6;
+
+
+    .container{
+        display: flex;
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        }
+
+        .navbar{
+            background-color: #10374f;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .menu{
+            text-decoration: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            
+            
+        }
+
+        .menu li{
+            margin: 0 10px;
+        }
+
+        .menu a{
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .connect-wallet {
+            padding: 10px 20px;
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+
+        .connect-wallet {
+            padding: 10px 20px;
+            background-color: #32cd32;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero-section .text-content h2 {
+            font-size: 48px;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .start-now {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 15px 30px;
+            background-color: #32cd32;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /*.visual .bubble {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(135deg, #32cd32, #0e0e3b);
+            border-radius: 50%;
+        }*/
+
+        .info-section {
+            background-color: #0e0e3b;
+            padding: 50px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-box{
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .info-box h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .info-box ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .info-box ul li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #14597d;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        
+        
+        
+        
+        
+        
+        
+}
